@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Рекламные кампании · Октябрь 2026</title>
+  <style>
+    :root{color-scheme:light;--ink:#172a39;--muted:#526575;--paper:#f1f5f8;--line:#d8e3ea;--accent:#00786d;--blue:#255db4}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 Inter,system-ui,sans-serif}main{max-width:1240px;margin:auto;padding:28px clamp(16px,4vw,52px) 52px}
+    header{background:#142a3c;color:white;border-radius:18px;padding:32px clamp(22px,5vw,48px);border-bottom:5px solid #39cbb4}
+    h1{font-size:clamp(28px,5vw,46px);line-height:1.12;margin:8px 0}.overline{font-size:.875rem;color:#9fe1d7;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+    header p{margin:12px 0 0;color:#dbe7ef}h2{font-size:clamp(21px,3vw,28px);line-height:1.2;margin:0 0 14px}h3{font-size:1rem;margin:0 0 8px}
+    section{margin-top:28px}.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}button{font:inherit;color:inherit}.tabs button{background:white;border:1px solid var(--line);border-radius:8px;padding:9px 15px;cursor:pointer}.tabs button[aria-pressed=true]{color:#fff;background:var(--accent);border-color:var(--accent)}button:focus-visible,a:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.panel,.table-wrap{background:#fff;border:1px solid var(--line);border-radius:13px}.panel{padding:18px}.panel p{margin:8px 0 0}.muted,caption{color:var(--muted)}.figures{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}.figures div{border-top:2px solid var(--line);padding-top:8px}.figures strong{display:block;font-size:clamp(17px,2.5vw,24px);line-height:1.25}.figures span,.note,.table-hint{font-size:.875rem;color:var(--muted)}
+    .table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;text-align:left}caption{text-align:left;padding:12px 14px;font-size:.875rem}th,td{padding:10px 14px;border-top:1px solid var(--line);vertical-align:top}th{background:#f6f8fa;font-size:.875rem}th.num,td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}th button{border:0;background:transparent;padding:0;cursor:pointer;color:#124d86;text-decoration:underline;text-underline-offset:3px}
+    .bar{display:block;height:5px;border-radius:4px;background:var(--accent);margin-top:6px;min-width:2px}.google .bar{background:var(--blue)}.id{display:block;font-size:.8125rem;color:var(--muted)}.note{margin:10px 0 0}.chip{display:inline-block;font-size:.875rem;font-weight:700;padding:3px 8px;border-radius:6px;background:#e6f4f0;color:#145c52}.chip.google{background:#e9f1ff;color:#234e92}
+    footer{border-top:1px solid var(--line);margin-top:32px;padding-top:16px;color:var(--muted);font-size:.875rem}a{color:#124d86}a:hover{text-decoration-thickness:2px}[hidden]{display:none!important}@media(max-width:690px){.grid{grid-template-columns:1fr}th,td{padding:9px 11px}}
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="overline">ГоркиLAND · Аналитика рекламы</div>
+    <h1>Рекламные кампании</h1>
+    <p>1–31 октября 2026 · Яндекс Директ, Google Ads и Авито</p>
+    <p>В отчёте собраны результаты рекламы аттракционов и изделий из стеклопластика за октябрь. Он показывает, какие кампании и объявления привлекли больше внимания, сколько стоило размещение и какие обращения удалось подтвердить.</p>
+  </header>
+  <nav class="tabs" aria-label="Фильтр по площадке">
+    <button type="button" data-filter="all" aria-pressed="true">Все площадки</button>
+    <button type="button" data-filter="direct" aria-pressed="false">Яндекс Директ</button>
+    <button type="button" data-filter="google" aria-pressed="false">Google Ads</button>
+    <button type="button" data-filter="avito" aria-pressed="false">Авито</button>
+  </nav>
+  <section aria-labelledby="summary">
+    <h2 id="summary">Результаты октября</h2>
+    <div class="grid">
+      <article class="panel" data-platform="direct">
+        <span class="chip">Яндекс Директ</span>
+        <div class="figures"><div><strong>106 393</strong><span>показа</span></div><div><strong>8 098</strong><span>кликов · CTR 7,61%</span></div><div><strong>68 362,99 ₽</strong><span>расход</span></div></div>
+        <p><strong>11 подтверждённых заявок</strong> · 6 214,82 ₽ за заявку</p>
+      </article>
+      <article class="panel google" data-platform="google">
+        <span class="chip google">Google Ads</span>
+        <div class="figures"><div><strong>68 384</strong><span>показа</span></div><div><strong>3 375</strong><span>кликов · CTR 4,94%</span></div><div><strong>226,19 $</strong><span>расход</span></div></div>
+        <p class="note">Настроить отслеживание конверсий в Google Ads не удалось, поэтому количество заявок из этого канала подтвердить невозможно.</p>
+      </article>
+      <article class="panel" data-platform="avito">
+        <span class="chip">Авито</span>
+        <div class="figures"><div><strong>3 350</strong><span>показов</span></div><div><strong>600</strong><span>просмотров · 17,91% от показов</span></div><div><strong>6</strong><span>чатов</span></div></div>
+        <p><strong>Стоимость лида — 1 117,60 ₽</strong></p>
+        <p class="note">Рассчитана из фактически потраченного бюджета за октябрь.</p>
+      </article>
+    </div>
+  </section>
+  <section aria-labelledby="campaigns" data-platform="direct google">
+    <h2 id="campaigns">Кампании за октябрь</h2>
+    <div class="table-wrap"><table id="campaign-table">
+      <caption>Нажми на название числового столбца, чтобы изменить сортировку. Расходы указаны в валюте кабинета.</caption>
+      <thead><tr><th scope="col">Кампания</th><th scope="col">Площадка</th><th scope="col">Тип кампании</th><th scope="col" class="num"><button type="button" data-sort="impressions">Показы</button></th><th scope="col" class="num" aria-sort="descending"><button type="button" data-sort="clicks">Клики</button></th><th scope="col" class="num"><button type="button" data-sort="ctr">CTR</button></th><th scope="col" class="num">Расход</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+  </section>
+  <section aria-labelledby="formats" data-platform="direct google">
+    <h2 id="formats">Как выглядят объявления</h2>
+    <div class="grid">
+      <article class="panel" data-platform="direct">
+        <h3>Яндекс Директ · единая перфоманс-кампания (ЕПК)</h3>
+        <p>Одна кампания может объединять несколько форматов и мест показа. В поиске объявление выглядит как рекламный результат с заголовком, описанием и ссылкой. В товарной галерее — как карточка товара с фото и ссылкой. В Рекламной сети Яндекса (РСЯ) возможны баннеры с изображением или видео на сайтах и в приложениях.</p>
+        <p class="note">Пример из отчёта — объявления о цепочных каруселях в кампании «Товарная галерея на поиске». <a href="https://yandex.ru/support/direct/ru/unified-performance-campaign/about">Справка Директа об ЕПК</a> · <a href="https://yandex.ru/support/direct/ru/product-gallery/about">Товарная галерея</a></p>
+      </article>
+      <article class="panel google" data-platform="google">
+        <h3>Google Ads · поисковая сеть</h3>
+        <p>В результатах поиска пользователь видит рекламный блок с заголовком, описанием и ссылкой. В адаптивном объявлении Google сочетает подготовленные заголовки и описания. В динамическом объявлении заголовок и ссылку система подбирает по запросу и содержанию сайта.</p>
+        <p class="note">В кампании по аттракционам были оба формата. <a href="https://support.google.com/google-ads/answer/17092074?hl=ru">Форматы поиска Google</a> · <a href="https://support.google.com/google-ads/answer/2471185?hl=ru">Динамические объявления</a></p>
+      </article>
+      <article class="panel google" data-platform="google">
+        <h3>Google Ads · максимальная эффективность (Performance Max)</h3>
+        <p>Google подбирает площадку и собирает объявление из текстов, изображений и видео. В зависимости от места показа пользователь может увидеть текстовое объявление в поиске, баннер на сайте или ролик на YouTube.</p>
+        <p class="note">Такой тип использовала кампания по стеклопластику. В таблице приведены её общие показатели. <a href="https://support.google.com/google-ads/answer/10724817?hl=ru">Справка Google о Performance Max</a></p>
+      </article>
+    </div>
+  </section>
+  <section aria-labelledby="leaders" data-platform="direct google">
+    <h2 id="leaders">Объявления с наибольшим числом кликов</h2>
+    <div class="grid">
+      <article class="panel" data-platform="direct">
+        <h3>Яндекс Директ · товарная галерея</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th scope="col">Объявление</th><th scope="col" class="num">Клики</th><th scope="col" class="num">CTR</th></tr></thead>
+          <tbody>
+            <tr><td>Цепочные карусели с подъёмом<span class="id">№ 1910463488698439173</span></td><td class="num">2 409</td><td class="num">15,06%</td></tr>
+            <tr><td>Цепочные карусели для парка<span class="id">№ 1910460995467804823</span></td><td class="num">1 219</td><td class="num">18,01%</td></tr>
+            <tr><td>Продажа аттракционов от производителя<span class="id">№ 1909915089020666054</span></td><td class="num">1 143</td><td class="num">14,10%</td></tr>
+          </tbody>
+        </table></div>
+        <p>Два объявления о цепочных каруселях собрали <strong>3 628 кликов</strong> — около 45% кликов Директа.</p>
+      </article>
+      <article class="panel google" data-platform="google">
+        <h3>Google Ads · поиск по аттракционам</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th scope="col">Объявление</th><th scope="col" class="num">Клики</th><th scope="col" class="num">CTR</th></tr></thead>
+          <tbody>
+            <tr><td>Парковые аттракционы<span class="id">В заголовках было колесо обозрения</span></td><td class="num">690</td><td class="num">2,21%</td></tr>
+            <tr><td>Популярные аттракционы<span class="id">Колесо обозрения и цепочная карусель с подъёмом</span></td><td class="num">599</td><td class="num">4,26%</td></tr>
+            <tr><td>Экстремальные аттракционы<span class="id">Объявление о свободном падении и невесомости</span></td><td class="num">92</td><td class="num">3,81%</td></tr>
+          </tbody>
+        </table></div>
+        <p>По запросу «американские горки» две строки отчёта дали <strong>72 клика</strong> и 2 940 показов.</p>
+      </article>
+    </div>
+  </section>
+  <section aria-labelledby="avito-listings" data-platform="avito">
+    <h2 id="avito-listings">Объявления Авито</h2>
+    <div class="table-wrap"><table>
+      <caption>По числу просмотров за октябрь. Расходы по каждому объявлению взяты из выгрузки Авито.</caption>
+      <thead><tr><th scope="col">Объявление</th><th scope="col" class="num">Показы</th><th scope="col" class="num">Просмотры</th><th scope="col" class="num">Чаты</th><th scope="col" class="num">Просмотры номера</th><th scope="col" class="num">Расход</th></tr></thead>
+      <tbody>
+        <tr><td>Космонавт (центрифуга)<span class="id">№ 7972867578</span></td><td class="num">515</td><td class="num"><strong>116</strong></td><td class="num">1</td><td class="num">1</td><td class="num">1 165,80 ₽</td></tr>
+        <tr><td>Гигантские качели 360 (Маятник)<span class="id">№ 7748267031</span></td><td class="num">470</td><td class="num">86</td><td class="num"><strong>3</strong></td><td class="num">0</td><td class="num">1 045,40 ₽</td></tr>
+        <tr><td>Автодром<span class="id">№ 7620319506</span></td><td class="num">382</td><td class="num">58</td><td class="num">0</td><td class="num">0</td><td class="num">580,20 ₽</td></tr>
+        <tr><td>Качели «Корабль»<span class="id">№ 7972509160</span></td><td class="num">437</td><td class="num">56</td><td class="num">1</td><td class="num">1</td><td class="num">868,80 ₽</td></tr>
+        <tr><td>Тарелка (дискокостер)<span class="id">№ 7748707442</span></td><td class="num">298</td><td class="num">53</td><td class="num">0</td><td class="num">0</td><td class="num">939,80 ₽</td></tr>
+        <tr><td>Лавочка (летающая скамейка)<span class="id">№ 8100554666</span></td><td class="num">243</td><td class="num">47</td><td class="num">1</td><td class="num">0</td><td class="num">444,00 ₽</td></tr>
+        <tr><td>Топ Спин<span class="id">№ 8100362135</span></td><td class="num">218</td><td class="num">38</td><td class="num">0</td><td class="num">0</td><td class="num">381,80 ₽</td></tr>
+        <tr><td>Цепочная карусель<span class="id">№ 7747994123</span></td><td class="num">230</td><td class="num">37</td><td class="num">0</td><td class="num">0</td><td class="num">393,60 ₽</td></tr>
+        <tr><td>Цепочная карусель с подъёмом<span class="id">№ 7748858493</span></td><td class="num">167</td><td class="num">36</td><td class="num">0</td><td class="num">1</td><td class="num">352,00 ₽</td></tr>
+        <tr><td>Колесо обозрения от 30 до 150 метров<span class="id">№ 7748614819</span></td><td class="num">152</td><td class="num">30</td><td class="num">0</td><td class="num">0</td><td class="num">294,40 ₽</td></tr>
+        <tr><td>Обзорная башня<span class="id">№ 7748875757</span></td><td class="num">172</td><td class="num">30</td><td class="num">0</td><td class="num">0</td><td class="num">281,80 ₽</td></tr>
+        <tr><td>Фигуры и арт-объекты из стеклопластика<span class="id">№ 8196785329</span></td><td class="num">66</td><td class="num">13</td><td class="num">0</td><td class="num">0</td><td class="num">0,00 ₽</td></tr>
+      </tbody>
+      <tfoot><tr><th scope="row">Итого по объявлениям в выгрузке</th><th class="num">3 350</th><th class="num">600</th><th class="num">6</th><th class="num">3</th><th class="num">6 747,60 ₽</th></tr></tfoot>
+    </table></div>
+    <p class="note">«Космонавт» лидирует по просмотрам. «Гигантские качели 360» собрали половину чатов. Просмотры номера показывают интерес к контакту. Данные о состоявшихся звонках в выгрузке отсутствуют.</p>
+  </section>
+  <section aria-labelledby="status">
+    <h2 id="status">Статус на 24 ноября 2026</h2>
+    <div class="grid">
+      <article class="panel" data-platform="direct"><h3>Яндекс Директ · идут показы</h3><p>Семейные аттракционы, экстремальные аттракционы, комплексное оснащение парков, производство фигур из стеклопластика и товарная галерея.</p></article>
+      <article class="panel" data-platform="google"><h3>Google Ads · аккаунт приостановлен</h3><p>Диагностика аккаунта сообщает об исчерпанном бюджете. Из-за блокировки аккаунта каждый месяц создаётся новый рекламный аккаунт.</p></article>
+      <article class="panel" data-platform="avito"><h3>Авито</h3><p>В октябрьской выгрузке 12 объявлений.</p></article>
+    </div>
+  </section>
+  <footer>
+    Источники данных: выгрузка Мастера отчётов Директа за октябрь, сверенная выгрузка заявок, статистика Авито за 1–31 октября и отчёты Google Ads по <a href="https://ads.google.com/aw/campaigns?ocid=8553306653&amp;date=20261001%2C20261031">кампаниям</a>, <a href="https://ads.google.com/aw/ads?ocid=8553306653&amp;date=20261001%2C20261031">объявлениям</a> и <a href="https://ads.google.com/aw/keywords/searchterms?ocid=8553306653&amp;date=20261001%2C20261031">поисковым запросам</a>.
+  </footer>
+</main>
+<script>
+  const campaigns = [
+    {platform:'direct',name:'Товарная галерея на поиске',id:'709855827',impressions:53820,clicks:5550,spend:12814.86},
+    {platform:'direct',name:'ЕПК № 8 от 22 октября',id:'715385923',impressions:23695,clicks:1112,spend:3370},
+    {platform:'direct',name:'Производство фигур из стеклопластика',id:'712827836',impressions:13142,clicks:898,spend:18006.56},
+    {platform:'direct',name:'Экстремальные аттракционы',id:'709409110',impressions:8442,clicks:302,spend:19540.32},
+    {platform:'direct',name:'Семейные аттракционы',id:'709398773',impressions:7294,clicks:236,spend:14631.25},
+    {platform:'google',name:'Аттракционы_общая_поиск',type:'Поисковая сеть',impressions:47759,clicks:1381,spend:209.29},
+    {platform:'google',name:'Производство фигур из стеклопластика',type:'Максимальная эффективность',impressions:20625,clicks:1994,spend:16.90}
+  ].map(c => ({...c,ctr:c.clicks/c.impressions}));
+  const labels = {direct:'Яндекс Директ',google:'Google Ads'};
+  const integers = new Intl.NumberFormat('ru-RU');
+  const percent = new Intl.NumberFormat('ru-RU',{style:'percent',minimumFractionDigits:2,maximumFractionDigits:2});
+  const money = {direct:'RUB',google:'USD'};
+  const table = document.querySelector('#campaign-table');
+  let platform = 'all', sort = 'clicks', direction = -1;
+  function render() {
+    const rows = campaigns.filter(c => platform === 'all' || c.platform === platform);
+    rows.sort((a,b) => direction*(a[sort]-b[sort]));
+    const maxClicks = Math.max(...rows.map(c => c.clicks));
+    table.tBodies[0].innerHTML = rows.map(c => {
+      const spend = new Intl.NumberFormat('ru-RU',{style:'currency',currency:money[c.platform]}).format(c.spend);
+      const campaignId = c.id ? `<span class="id">№ ${c.id}</span>` : '';
+      const type = c.platform === 'direct' ? 'Единая перфоманс-кампания (ЕПК)' : c.type;
+      return `<tr class="${c.platform}"><td>${c.name}${campaignId}</td><td>${labels[c.platform]}</td><td>${type}</td><td class="num">${integers.format(c.impressions)}</td><td class="num">${integers.format(c.clicks)}<span aria-hidden="true" class="bar" style="width:${c.clicks/maxClicks*100}%"></span></td><td class="num">${percent.format(c.ctr)}</td><td class="num">${spend}</td></tr>`;
+    }).join('');
+  }
+  document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
+    platform = button.dataset.filter;
+    document.querySelectorAll('[data-filter]').forEach(b => b.setAttribute('aria-pressed',String(b === button)));
+    document.querySelectorAll('[data-platform]').forEach(el => {el.hidden = platform !== 'all' && !el.dataset.platform.split(' ').includes(platform);});
+    render();
+  }));
+  document.querySelectorAll('[data-sort]').forEach(button => button.addEventListener('click', () => {
+    direction = sort === button.dataset.sort ? -direction : -1;
+    sort = button.dataset.sort;
+    table.querySelectorAll('th[aria-sort]').forEach(th => th.removeAttribute('aria-sort'));
+    button.closest('th').setAttribute('aria-sort',direction === -1 ? 'descending' : 'ascending');
+    render();
+  }));
+  render();
+</script>
+</body>
+</html>
